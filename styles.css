@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(40, 40, 134);
+  z-index: 1000;
+  
+
+}
+
+h2{
+    margin-top: 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    position: sticky;
+}
+
+nav input {
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+  margin: 8px;
+}
+
+.game-container {
+    display:flex;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.game-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+}
+
+#contato input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+#contato button {
+    background-color: #5c01c5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+}

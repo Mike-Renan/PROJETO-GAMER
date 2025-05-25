@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKStore-Game - Seu portal de games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      
+
+
+        <h1>MKStore-Game - Seu portal de games</h1>
+        <nav>
+        
+            <a href="#games">Jogos</a>
+            <a href="#contato">Contato</a>
+            <input type="search" placeholder="O que você procura?">
+            
+        </nav>
+    </header>
+
+    <main id="games">
+        <h2>Lista de Jogos</h2>
+        <div class="game-container">
+            <div class="game-card">
+                <img src="./assets/SPIDER.jpg" alt="Spider Man Remasted">
+                <h3>Spider man Remasted</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game One')">Ver Detalhes</button>
+            </div>
+            <div class="game-card">
+                <img src="./assets/ALAN.jpg" alt="Alan Wake 2">
+                <h3>Alan Wake 2</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game Two')">Ver Detalhes</button>
+            </div>
+
+            <div class="game-card">
+                <img src="./assets/GUARDIAN.jpg" alt="Guardian Of Galaxy">
+                <h3>Guardian Of Galaxy</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game Three')">Ver Detalhes</button>
+            </div>
+        </div>
+       
+        <div class="game-container">
+            <div class="game-card">
+                <img src="./assets/tlo.jpg" alt="The last Of Us 2">
+                <h3>The Last Of Us 2</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game One')">Ver Detalhes</button>
+            </div>
+            <div class="game-card">
+                <img src="./assets/callof.jpg" alt="Call Of Duty">
+                <h3>Call Of Duty</h3>
+                <p>Tiro</p>
+                <button onclick="showDetails('Game Two')">Ver Detalhes</button>
+            </div>
+
+            <div class="game-card">
+                <img src="./assets/red2.jpg" alt="Red Dead 2">
+                <h3>Read Dead Redemption 2</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game Three')">Ver Detalhes</button>
+            </div>
+        </div>
+
+
+       <div class="game-container">
+            <div class="game-card">
+                <img src="./assets/dbz.jpg" alt="Dragon Ball Z Fighter">
+                <h3>Dragon Ball Z Fighter</h3>
+                <p>Luta</p>
+                <button onclick="showDetails('Game One')">Ver Detalhes</button>
+            </div>
+            <div class="game-card">
+                <img src="./assets/god.jpg" alt="God of War">
+                <h3>God of War Ragnarok</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game Two')">Ver Detalhes</button>
+            </div>
+            <div class="game-card">
+                <img src="./assets/kombat.jpg" alt="Mortal kombat">
+                <h3>Mortal kombat 11</h3>
+                <p>Luta</p>
+                <button onclick="showDetails('Game Three')">Ver Detalhes</button>
+            </div>
+        </div>
+          
+        <div class="game-container">
+            <div class="game-card">
+                <img src="./assets/gtav.jpg" alt="Grand Theft Auto V">
+                <h3>Grand Theft Auto V</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game One')">Ver Detalhes</button>
+            </div>
+            <div class="game-card">
+                <img src="./assets/hrz.jpg" alt="horizon forbidden west">
+                <h3>horizon forbidden west</h3>
+                <p>Ação e aventura!</p>
+                <button onclick="showDetails('Game Two')">Ver Detalhes</button>
+            </div>
+            <div class="game-card">
+                <img src="./assets/mk1.jpg" alt="Mortal kombat 1">
+                <h3>Mortal kombat 1</h3>
+                <p>Luta</p>
+                <button onclick="showDetails('Game Three')">Ver Detalhes</button>
+            </div>
+        </div>
+    
+    </main>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Nos envie uma mensagem!</p>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GameHub - Todos os direitos reservados.</p>
+        <div class="footer-media">
+      <h4>Redes Sociais</h4>
+      <a href="#"><img src="./assets/facebook-logo.png" alt="Facebook"></a>
+      <a href="#"><img src="./assets/twitter-logo-bird.png" alt="Twitter"></a>
+      <a href="#"><img src="./assets/intagran-logo.png" alt="Instagram"></a>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
