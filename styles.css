@@ -99,7 +99,31 @@ footer {
 }
 
 @media (max-width: 768px) {
-  nav {
+h1{
+    font-size:medium;
+    margin: 10px;
+    background-color: #ff4500;
+}
+
+h2 {
+    margin-top: 100px;
+}
+  #contato form {
+    display: flex;
     flex-direction: column;
-  }
+    width: 60%;
+    margin: auto;
+}
+
+.game-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre as imagens */
+    justify-content: center; /* Centralizar as imagens */
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 235px;
+}
 }
