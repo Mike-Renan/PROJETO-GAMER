@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MKStore-Game - Seu portal de games</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-      
-
-
+          <div class="header-game">
+         <img src="./assets/playstation.png" alt="logo playstation">
+         <img src="./assets/xbox.png" alt="logo xbox">
+         <img src="./assets/nintendo.png" alt="logo nintendo">
+         </div>
         <h1>MKStore-Game - Seu portal de games</h1>
         <nav>
-        
+
             <a href="#games">Jogos</a>
             <a href="#contato">Contato</a>
             <input type="search" placeholder="O que você procura?">
-            
+
         </nav>
     </header>
 
@@ -44,7 +48,7 @@
                 <button onclick="showDetails('Game Three')">Ver Detalhes</button>
             </div>
         </div>
-       
+
         <div class="game-container">
             <div class="game-card">
                 <img src="./assets/tlo.jpg" alt="The last Of Us 2">
@@ -68,7 +72,7 @@
         </div>
 
 
-       <div class="game-container">
+        <div class="game-container">
             <div class="game-card">
                 <img src="./assets/dbz.jpg" alt="Dragon Ball Z Fighter">
                 <h3>Dragon Ball Z Fighter</h3>
@@ -88,7 +92,7 @@
                 <button onclick="showDetails('Game Three')">Ver Detalhes</button>
             </div>
         </div>
-          
+
         <div class="game-container">
             <div class="game-card">
                 <img src="./assets/gtav.jpg" alt="Grand Theft Auto V">
@@ -109,7 +113,10 @@
                 <button onclick="showDetails('Game Three')">Ver Detalhes</button>
             </div>
         </div>
-    
+        <a href="https://wa.link/8eeygg" class="link-what" target="_blank">
+            <img src="./assets/what.png" alt="link para whatsapp">
+        </a>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/1E051WtpyWg?si=YATm82hMkaH3bt7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </main>
 
     <section id="contato">
@@ -122,17 +129,21 @@
             <button type="submit">Enviar</button>
         </form>
     </section>
-
+         <div class="caixa-game">
+        <video src="./assets/videoplay.mp4" autoplay muted loop></video>
+        <div class="mascara-game"></div>
+    </div>
     <footer>
         <p>&copy; 2025 GameHub - Todos os direitos reservados.</p>
         <div class="footer-media">
-      <h4>Redes Sociais</h4>
-      <a href="#"><img src="./assets/facebook-logo.png" alt="Facebook"></a>
-      <a href="#"><img src="./assets/twitter-logo-bird.png" alt="Twitter"></a>
-      <a href="#"><img src="./assets/intagran-logo.png" alt="Instagram"></a>
-    </div>
+            <h4>Redes Sociais</h4>
+            <a href="#"><img src="./assets/facebook-logo.png" alt="Facebook"></a>
+            <a href="#"><img src="./assets/twitter-logo-bird.png" alt="Twitter"></a>
+            <a href="#"><img src="./assets/intagran-logo.png" alt="Instagram"></a>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
